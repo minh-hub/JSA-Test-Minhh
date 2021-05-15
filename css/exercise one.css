@@ -1,0 +1,32 @@
+*{  
+    font-family: 'Open Sans', sans-serif;
+  
+}
+.banner{
+    height:40px;
+    width:100%;
+    margin-bottom:100px;
+}
+.banner>ul{
+    display:flex;
+    justify-content:center;
+}
+.hello{
+    display:flex;
+    justify-content: center;
+}
+.bigbox {
+    border: thin solid;
+    height:400px;
+    width:350px;
+    border-radius:20px;
+}
+.banner>ul>li{
+    list-style-type: none;
+    margin-left:100px;
+    margin-right:100px;
+}
+.banner>ul>li>a{
+    text-decoration:none;
+    color:darkgoldenrod;
+}

@@ -43,7 +43,7 @@ h1,h2,h3,h4,h5,h6{
 input{
     width:360px;
     font-family: 'Open Sans', sans-serif;
-    font-size:20px;
+    font-size:17px;
     border-radius:10px;
     height:45px;
 }
@@ -64,6 +64,21 @@ input{
     border-radius:20px;
     border:none;
 }
-.ohno>p{
-    color:#0B66C3
+.button:hover{
+    background-color:#004181;
+}
+.ohno{
+height:auto;
+width:135px;
+border:none;
+border-radius: 20px;
+}
+.ohno:hover{
+    background-color:lightblue;
+    opacity:80%;
+    text-decoration: underline;
+}
+.ohno>a{
+    color:#0B66C3;
+    text-decoration: none;
 }
